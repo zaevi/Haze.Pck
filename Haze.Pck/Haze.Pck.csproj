@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>zaevi</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>A .NET class library for packing and unpacking Godot Engine PCK files.</Description>
+    <Company>Haze</Company>
+    <Copyright>© 2021 zaevi</Copyright>
+    <PackageProjectUrl>https://github.com/zaevi/Haze.Pck</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>godot, pck</PackageTags>
+    <RepositoryUrl>https://github.com/zaevi/Haze.Pck</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\Haze.Pck.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
